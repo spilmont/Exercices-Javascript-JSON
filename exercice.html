@@ -4,10 +4,40 @@
     <meta charset="utf-8">
     <title>JS-Meteo</title>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
 </head>
 <body>
+<section>
+<div id="formulaire">
+<input type="text" name="ville" id="ville" placeholder="entrer un nom de ville" >
+<input type="button" name="chercher" value="valider" id="chercher">
+</div>
+
+    <div  id="pp" ></div>
+
+<div id="error"></div>
+<span id="date"></span>
+<div id="main">
 
 
+<div id="temperature"></div>
+    <div id="main-info">
+<div id="tempmin"></div>
+<div id="tempmax"></div>
+    <div id="pression"></div>
+    <div id="vent"></div>
+    <div id="humidite"></div>
+    </div>
+</div>
+    <div id="coord">
+    <div id="longitude"></div>
+    <div id="latitude"></div>
+    </div>
+    <div id="map" class="map"></div>
+</section>
 
 
 

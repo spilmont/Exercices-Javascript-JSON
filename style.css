@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+}
+#formulaire{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+#pp{
+    display: none;
+}
+
+section {
+    margin: auto;
+    background-color: #00796b;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
+
+}
+
+#ville{
+    text-align: center;
+    border: none;
+    background-color: #00796b;
+    border-bottom: solid 1px whitesmoke;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+#chercher {
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    color: #00796b;
+}
+
+#temperature{
+    font-size: 4em;
+    display: inline-block;
+}
+
+#main-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#coord{display: flex;
+    margin-right: 10px;
+    margin-left: 4.6%;
+ }
+
+.map{
+   margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 250px;
+
+}
+
+#date{
+    text-align: center;
+    font-size: 20px;
+}
